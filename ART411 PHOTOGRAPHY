@@ -1,0 +1,15 @@
+# create folder and enter
+mkdir art411photography
+cd art411photography
+
+# create images folder for your logo & photos
+mkdir images
+
+# copy the index.html content from the canvas into index.html (or download it)
+# then initialize git
+git init
+git add .
+git commit -m "Initial site: single-page layout for ART411 PHOTOGRAPHY"
+git remote add origin git@github.com:YOURUSERNAME/art411photography.git
+git branch -M main
+git push -u origin main
